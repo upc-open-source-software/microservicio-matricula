@@ -14,8 +14,6 @@ public class Matricula {
     private Long id_matricula;
     private Long id_alumno;
     private Long id_asignatura;
-    @Column(name = "fecha_creacion")
-    @DateTimeFormat(pattern = "dd-MM-yyyy")
     private Date fecha_creacion;
     private Double monto_pagar;
     private String estado;
