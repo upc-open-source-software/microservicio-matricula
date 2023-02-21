@@ -1,7 +1,5 @@
 package microserviciomatricula.entidades;
 
-import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.persistence.*;
 import java.util.Date;
 
@@ -26,7 +24,7 @@ public class Matricula {
         this.monto_pagar = monto_pagar;
         this.estado = estado;
     }
-    public Matricula(){
+    public Matricula(long idMatricula, long idAlumno, long idAsignatura, String s, double montoPagar, String habilitado){
 
     }
 

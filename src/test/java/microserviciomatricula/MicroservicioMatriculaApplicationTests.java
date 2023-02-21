@@ -19,7 +19,7 @@ class MicroservicioMatriculaApplicationTests {
 	}
 	@Test
 	void testRegistrar() {
-		Matricula matricula = new Matricula();
+		Matricula matricula = new Matricula(1L, 1L, 1L, "2022-02-02", 120.20, "Habilitado");
 		matricula.setId_alumno(1L);
 		matricula.setId_asignatura(1L);
 		matricula.setMonto_pagar(220.20);
