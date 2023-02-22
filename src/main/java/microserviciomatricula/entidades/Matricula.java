@@ -28,6 +28,10 @@ public class Matricula {
 
     }
 
+    public Matricula() {
+
+    }
+
     public Long getId_matricula() {
         return id_matricula;
     }
